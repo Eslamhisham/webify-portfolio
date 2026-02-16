@@ -49,10 +49,10 @@ export function initToast() {
       toast.classList.add("show");
     }, 10);
 
-    // Auto hide after 6 seconds
+    // Auto hide after 5 seconds
     setTimeout(() => {
       toast.classList.remove("show");
-    }, 6000);
+    }, 5000);
   }
 
   // Return function so other modules can use it
