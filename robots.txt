@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://webify-tech.netlify.app/sitemap.xml
