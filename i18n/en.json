@@ -115,11 +115,29 @@
 
 
 
-"__footer":"contact",
+
+"__section":"validation",
+
+"validation.nameShort": "Name is too short.",
+"validation.emailInvalid": "Invalid email address.",
+"validation.phoneInvalid": "Please enter a valid phone number.",
+"validation.messageShort": "Message is too short.",
+"validation.success": "✅ Message sent successfully!",
+"validation.error": "❌ Something went wrong. Try again.",
+
+
+
+
+"__section":"footer",
 
 "foot.list" : "List of links" ,
 "foot.follow" : "Follow us on",
 "foot.h" : "Webify Tech",
 "foot.p": "We build modern websites, smart systems and scalable digital solutions."
 
+
+
+
 }
+
+

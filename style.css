@@ -335,6 +335,8 @@ html[dir="rtl"] .nav-actions {
   transition: 0.3s;
 }
 
+
+
 /* =========================
    ABOUT SECTION
    ========================= */
@@ -729,7 +731,9 @@ html[dir="rtl"] .nav-actions {
 .form-group {
   display: flex;
   flex-direction: column;
+  position: relative;
 }
+
 
 .form-group label {
   font-size: 14px;
@@ -763,9 +767,15 @@ html[dir="rtl"] .nav-actions {
 }
 
 /* Success / Error message */
-#formMessage {
-  font-size: 16px;
-  margin-top: 10px;
+.error-message {
+  color: #ff3b3b;
+  font-size: 14px;
+  margin-top: 6px;
+  display: block;
+}
+input.error,
+textarea.error {
+  border: 1px solid #ff3b3b;
 }
 
 /* Responsive */
@@ -782,6 +792,75 @@ html[dir="rtl"] .nav-actions {
     align-items: center;
   }
 }
+/* =========================================================
+   Toast Styles
+   ========================================================= */
+
+.toast {
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  background: #1f2937;
+  color: #fff;
+  padding: 14px 20px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+
+  transform: translateY(-20px);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s ease;
+  z-index: 9999;
+}
+
+.toast.show {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.toast.success {
+  background: #16a34a;
+}
+
+.toast.error {
+  background: #dc2626;
+}
+
+/* Support RTL automatically */
+html[dir="rtl"] .toast {
+  right: auto;
+  left: 30px;
+}
+
+/* =========================================================
+   Shake Animation for Invalid Input
+   ========================================================= */
+
+/* Animation keyframes */
+@keyframes shake {
+  0% { transform: translateX(0); }
+  20% { transform: translateX(-6px); }
+  40% { transform: translateX(6px); }
+  60% { transform: translateX(-4px); }
+  80% { transform: translateX(4px); }
+  100% { transform: translateX(0); }
+}
+
+/* Class applied when error occurs */
+.shake {
+  animation: shake 0.4s ease;
+}
+
+/* Error style */
+.error {
+  border: 1px solid #dc2626;
+}
+
+
 
 /* =========================
   Footer SECTION

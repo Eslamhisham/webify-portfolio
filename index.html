@@ -462,7 +462,7 @@
           <!-- RIGHT SIDE (Glass Form) -->
           <div class="contact-form-wrapper">
             <form id="contactForm" class="contact-form">
-              <p id="formMessage"></p>
+              <!-- <p id="formMessage"></p> -->
               <!-- Name -->
               <div class="form-group">
                 <input
@@ -470,9 +470,9 @@
                   name="name"
                   id="name"
                   data-i18n-placeholder="contact.name"
-                  placeholder="Your Name"
                   required
                 />
+                <small class="error-message" id="name-error"></small>
               </div>
 
               <!-- Email -->
@@ -482,9 +482,9 @@
                   name="email"
                   id="email"
                   data-i18n-placeholder="contact.email"
-                  placeholder="Your Email"
                   required
                 />
+                <small class="error-message" id="email-error"></small>
               </div>
               <!-- Phone -->
               <div class="form-group">
@@ -493,9 +493,9 @@
                   name="phone"
                   id="phone"
                   data-i18n-placeholder="contact.phone"
-                  placeholder="Your Phone"
                   required
                 />
+                <small class="error-message" id="phone-error"></small>
               </div>
 
               <!-- Message -->
@@ -508,6 +508,7 @@
                   rows="5"
                   required
                 ></textarea>
+                <small class="error-message" id="message-error"></small>
               </div>
 
               <!-- Hidden Anti-Spam Field -->
@@ -572,7 +573,7 @@
           <p>
             <span class="footer-bottom-icon">©</span>
             <span class="footer-bottom-title"
-              >Webify Tech | All Rights Reserved 2026 | @webifytech.eg</span
+              >Webify Tech | All Rights Reserved 2026</span
             >
           </p>
           <p class="signature">
@@ -586,6 +587,6 @@
 
     <!-- Js & EmailJS SDK -->
     <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-    <script src="main.js"></script>
+    <script type="module" src="js/main.js"></script>
   </body>
 </html>
