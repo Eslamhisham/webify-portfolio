@@ -102,6 +102,15 @@
 "contact.message" : "اكتب رسالتك هنا",
 "contact.btn" : "إرسال الرسالة",
 
+"__section":"validation",
+
+"validation.nameShort": "الاسم قصير جدًا.",
+"validation.emailInvalid": "البريد الإلكتروني غير صحيح.",
+"validation.phoneInvalid": "يرجى إدخال رقم هاتف صحيح.",
+"validation.messageShort": "الرسالة قصيرة جدًا.",
+"validation.success": "✅ تم إرسال الرسالة بنجاح!",
+"validation.error": "❌ حدث خطأ. حاول مرة أخرى.",
+
 
 
 
