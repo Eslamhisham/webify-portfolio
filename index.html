@@ -1,0 +1,579 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Webify Tech builds modern websites and web systems to help your businesses to grow online . ويبفاي تك هنخلّي مشروعك يعيش على الإنترنت ."
+    />
+    <title>Webify Tech</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicon/favicon-32x32.png"
+    />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <header class="site-header">
+      <nav class="navbar" aria-label="Primary navigation">
+        <!-- Brand -->
+        <a class="brand" href="#home" aria-label="Webify Tech Home">
+          <span data-i18n="nav.brand" class="brand__name">Webify</span>
+          <span data-i18n="nav.tag" class="brand__tag">Tech</span>
+        </a>
+        <!-- Desktop Links -->
+        <ul class="nav-links" id="navLinks">
+          <li>
+            <a class="nav-link" href="#home" data-i18n="nav.home">Home</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#about" data-i18n="nav.about">About</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#services" data-i18n="nav.service"
+              >Services</a
+            >
+          </li>
+          <li>
+            <a class="nav-link" href="#work" data-i18n="nav.work">Work</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#contact" data-i18n="nav.contact"
+              >Contact</a
+            >
+          </li>
+        </ul>
+        <!-- Actions (Language + Theme + CTA + Burger) -->
+        <div class="nav-actions">
+          <!-- Language toggle -->
+          <button
+            class="btn btn-ghost"
+            id="langBtn"
+            type="button"
+            data-i18n="nav.lang"
+            aria-label="Toggle language"
+          >
+            AR
+          </button>
+          <!-- Theme toggle -->
+          <button
+            class="btn btn-ghost"
+            id="themeBtn"
+            type="button"
+            aria-label="Toggle theme"
+          >
+            ☾
+          </button>
+
+          <!-- CTA Button -->
+          <a class="btn btn-primary" href="#contact" data-i18n="nav.cta"
+            >Let’s Build Together</a
+          >
+
+          <!-- Burger button (Mobile) -->
+          <button
+            class="burger"
+            id="burgerBtn"
+            type="button"
+            aria-label="Open menu"
+            aria-controls="mobileMenu"
+            aria-expanded="false"
+          >
+            <span class="burger__bar"></span>
+            <span class="burger__bar"></span>
+            <span class="burger__bar"></span>
+          </button>
+        </div>
+      </nav>
+
+      <!-- Mobile Menu -->
+      <div class="mobile-menu" id="mobileMenu" hidden>
+        <ul class="mobile-links">
+          <li>
+            <a class="mobile-link" href="#home" data-i18n="nav.home">Home</a>
+          </li>
+          <li>
+            <a class="mobile-link" href="#about" data-i18n="nav.about">About</a>
+          </li>
+          <li>
+            <a class="mobile-link" href="#services" data-i18n="nav.service"
+              >Services</a
+            >
+          </li>
+          <li>
+            <a class="mobile-link" href="#work" data-i18n="nav.work">Work</a>
+          </li>
+          <li>
+            <a class="mobile-link" href="#contact" data-i18n="nav.contact"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!--Home Section -->
+    <main>
+      <section id="home" class="hero">
+        <div class="hero-container">
+          <div class="hero-text">
+            <h1 data-i18n="hero.title">Websites • Systems • Solutions</h1>
+            <p data-i18n="hero.subtitle">
+              We build modern digital experiences that contribute to your
+              business growth and progress.
+            </p>
+            <div class="hero-buttons">
+              <a href="#contact" class="btn-primary1" data-i18n="hero.cta1"
+                >Get Started</a
+              >
+
+              <a href="#work" class="btn-secondary" data-i18n="hero.cta2">
+                View Work
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--About Section -->
+      <section class="about section" id="about">
+        <div class="about-container">
+          <!-- Text Column -->
+          <div class="about-text">
+            <h2 data-i18n="about.title">About Webify Tech</h2>
+            <p data-i18n="about.description">
+              We help startups and businesses launch modern web experiences and
+              systems that combine performance, design, and scalability.
+            </p>
+            <!-- Stats -->
+            <div class="about-stats">
+              <div class="stat">
+                <h3 data-i18n="about.stat11">+20</h3>
+                <a href="#work" class="about-stats">
+                  <span data-i18n="about.stat1">Projects</span>
+                </a>
+              </div>
+              <div class="stat">
+                <h3 data-i18n="about.stat22">100%</h3>
+                <span data-i18n="about.stat2">Client Focus</span>
+              </div>
+
+              <div class="stat">
+                <h3 data-i18n="about.stat33">Fast</h3>
+                <span data-i18n="about.stat3">Performance</span>
+              </div>
+            </div>
+          </div>
+          <!-- Visual Column -->
+          <div class="about-visual">
+            <div class="about-card">
+              <h4 data-i18n="about.cardTitle">Our Mission</h4>
+              <p data-i18n="about.cardText">
+                Deliver clean, scalable, and business-oriented digital
+                solutions.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Services Section -->
+
+      <section class="services section" id="services">
+        <div class="services-container">
+          <!-- Section Header -->
+          <div class="section-header">
+            <h2 data-i18n="services.title">Our Services</h2>
+            <p data-i18n="services.subtitle">
+              We provide complete digital solutions tailored for your business.
+            </p>
+          </div>
+
+          <!-- Services Grid -->
+          <div class="servises-grid">
+            <!-- Service 1 -->
+            <div class="service-card">
+              <div class="service-icon">🌐</div>
+              <h3 data-i18n="services.s1.title">Websites Development</h3>
+              <p data-i18n="services.s1.desc">
+                Modern, fast and scalable websites and systems built with best
+                practices.
+              </p>
+            </div>
+            <!-- Service 2 -->
+            <div class="service-card">
+              <div class="service-icon">🛅</div>
+              <h3 data-i18n="services.s2.title">Web Systems</h3>
+              <p data-i18n="services.s2.desc">
+                Custom web systems tailored to your business workflow.
+              </p>
+            </div>
+
+            <!-- Service 3 -->
+            <div class="service-card">
+              <div class="service-icon">📰</div>
+              <h3 data-i18n="services.s3.title">Landing Pages</h3>
+              <p data-i18n="services.s3.desc">
+                Customizable and tailored landing pages for marketing and
+                advertising your project.
+              </p>
+            </div>
+
+            <!-- Service 4 -->
+            <div class="service-card">
+              <div class="service-icon">🤖</div>
+              <h3 data-i18n="services.s4.title">Embedded projects</h3>
+              <p data-i18n="services.s4.desc">
+                We help you and provide the needs of embedded systems projects.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Work Section -->
+
+      <section class="work section" id="work">
+        <div class="work-container">
+          <!-- Section Header -->
+          <div class="section-header">
+            <h2 data-i18n="work.title">Our Work</h2>
+            <p data-i18n="work.desc">
+              Selected projects and featured concepts.
+            </p>
+          </div>
+
+          <!-- Projects Grid -->
+          <div class="projects-grid">
+            <!-- Project Card -->
+
+            <!-- Project 1 Restaurant Website -->
+            <a href="www.facebook.com" target="_blank" class="project-card">
+              <div class="project-image">
+                <div class="project-overlay">
+                  <span>View Project</span>
+                </div>
+                <img
+                  src="projects-img/Restaurant Website.jpg"
+                  alt="Project 1 Restaurant Website"
+                  class="img"
+                />
+              </div>
+              <h3 data-i18n="work.project1">Restaurant Website</h3>
+              <p data-i18n="work.dsc.project1">
+                Modern responsive website for a restaurant brand.
+              </p>
+            </a>
+            <!-- Project 2 Company Landing Page -->
+            <a href="www.facebook.com" target="_blank" class="project-card">
+              <div class="project-image">
+                <div class="project-overlay">
+                  <span data-i18n="work.view">View Project</span>
+                </div>
+                <img
+                  src="projects-img/Restaurant Website.jpg"
+                  alt="Project 1 Restaurant Website"
+                  class="img"
+                />
+              </div>
+              <h3 data-i18n="work.project2">Company Landing Page</h3>
+              <p data-i18n="work.dsc.project2">
+                High-converting landing page for a startup.
+              </p>
+            </a>
+            <!-- Project 3 Portfolio Concept -->
+            <a href="www.facebook.com" target="_blank" class="project-card">
+              <div class="project-image">
+                <div class="project-overlay">
+                  <span data-i18n="work.view">View Project</span>
+                </div>
+                <img
+                  src="projects-img/Restaurant Website.jpg"
+                  alt="Project 1 Restaurant Website"
+                  class="img"
+                />
+              </div>
+              <h3 data-i18n="work.project3">Portfolio Concept</h3>
+              <p data-i18n="work.dsc.project3">
+                Clean portfolio template for freelancers.
+              </p>
+            </a>
+            <!-- Project 4  Smart Home-->
+            <a href="www.facebook.com" target="_blank" class="project-card">
+              <div class="project-image">
+                <div class="project-overlay">
+                  <span data-i18n="work.view">View Project</span>
+                </div>
+                <img
+                  src="projects-img/Restaurant Website.jpg"
+                  alt="Project 1 Restaurant Website"
+                  class="img"
+                />
+              </div>
+              <h3 data-i18n="work.project4">Smart Home</h3>
+              <p data-i18n="work.dsc.project4">
+                smart home with modern features.
+              </p>
+            </a>
+            <!-- Project 5 Smart Automated External defibrillator (AED) -->
+            <a href="www.facebook.com" target="_blank" class="project-card">
+              <div class="project-image">
+                <div class="project-overlay">
+                  <span data-i18n="work.view">View Project</span>
+                </div>
+                <img
+                  src="projects-img/Restaurant Website.jpg"
+                  alt="Project 1 Restaurant Website"
+                  class="img"
+                />
+              </div>
+              <h3 data-i18n="work.project5">
+                Smart Automated External defibrillator (AED)
+              </h3>
+              <p data-i18n="work.dsc.project5">
+                Smart AED is a portable, real-time life-saving device that
+                integrates ECG monitoring and automatic defibrillation.
+              </p>
+            </a>
+            <!-- Project 6 Electronics Store Website -->
+            <a href="www.facebook.com" target="_blank" class="project-card">
+              <div class="project-image">
+                <div class="project-overlay">
+                  <span data-i18n="work.view">View Project</span>
+                </div>
+                <img
+                  src="projects-img/Restaurant Website.jpg"
+                  alt="Project 1 Restaurant Website"
+                  class="img"
+                />
+              </div>
+              <h3 data-i18n="work.project6">Electronics Store Website</h3>
+              <p data-i18n="work.dsc.project6">
+                Modern responsive website for a Electronics brand.
+              </p>
+            </a>
+
+            <!-- Add new projects here -->
+          </div>
+          <div class="mini-why">
+            <h3 data-i18n="work.mini">Why Choose Webify Tech?</h3>
+
+            <div class="mini-why-grid">
+              <div class="mini-item" data-i18n="work.mini1">
+                Clean & Scalable Code
+              </div>
+              <div class="mini-item" data-i18n="work.mini2">
+                Business-Oriented Solutions
+              </div>
+              <div class="mini-item" data-i18n="work.mini3">Modern UI & UX</div>
+              <div class="mini-item" data-i18n="work.mini4">
+                Fast Delivery
+                <span>🚀</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Contact Section -->
+      <section class="contact section" id="contact">
+        <div class="contact-container">
+          <!-- LEFT SIDE -->
+          <div class="contact-left">
+            <h2 class="contact-label" data-i18n="contact.h1">Contact</h2>
+            <div class="contact-label-title">
+              <span class="contact-title">
+                <span data-i18n="contact.h2">Let’s Work</span>
+                <span class="gradient-text" data-i18n="contact.h"
+                  >Together</span
+                >
+              </span>
+            </div>
+
+            <p class="contact-desc" data-i18n="contact.dsc">
+              Have a project in mind? Tell us about it and we’ll get back to you
+              within 24 hours.
+            </p>
+
+            <div class="contact-info">
+              <div class="info-item">
+                <i class="fa-solid fa-building"></i>
+                <a
+                  href="https://www.facebook.com/webifytech.eg"
+                  target="_blank"
+                  data-i18n="contact.a1"
+                  >Webify Tech</a
+                >
+              </div>
+
+              <div class="info-item">
+                <i class="fa-solid fa-phone"></i>
+                <a
+                  href="tel:+201117346581"
+                  target="_top"
+                  data-i18n="contact.a2"
+                  >Call Us</a
+                >
+              </div>
+            </div>
+
+            <div class="social-icons">
+              <!-- <a href="#" target="_blank"><i class="fab fa-youtube"></i></a> -->
+              <!-- <a href="#" target="_blank"><i class="fab fa-x-twitter"></i></a> -->
+              <!-- <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a> -->
+              <a href="https://www.facebook.com/webifytech.eg" target="_blank"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="https://wa.me/201117346581" target="_blank"
+                ><i class="fab fa-whatsapp"></i
+              ></a>
+              <a href="https://www.instagram.com/eslam_hisham_" target="_blank"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <!-- <a href="#" target="_blank"><i class="fab fa-square-github"></i></a> -->
+            </div>
+          </div>
+
+          <!-- RIGHT SIDE (Glass Form) -->
+          <div class="contact-form-wrapper">
+            <form id="contactForm" class="contact-form">
+              <p id="formMessage"></p>
+              <!-- Name -->
+              <div class="form-group">
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  data-i18n-placeholder="contact.name"
+                  placeholder="Your Name"
+                  required
+                />
+              </div>
+
+              <!-- Email -->
+              <div class="form-group">
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  data-i18n-placeholder="contact.email"
+                  placeholder="Your Email"
+                  required
+                />
+              </div>
+              <!-- Phone -->
+              <div class="form-group">
+                <input
+                  type="tel"
+                  name="phone"
+                  id="phone"
+                  data-i18n-placeholder="contact.phone"
+                  placeholder="Your Phone"
+                  required
+                />
+              </div>
+
+              <!-- Message -->
+              <div class="form-group">
+                <textarea
+                  name="message"
+                  id="message"
+                  data-i18n-placeholder="contact.message"
+                  placeholder="Your Message"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+
+              <!-- Hidden Anti-Spam Field -->
+              <input type="text" name="website" style="display: none" />
+
+              <!-- Send button -->
+
+              <button
+                type="submit"
+                id="submitBtn"
+                class="btn btn-primary"
+                data-i18n="contact.btn"
+              >
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!--footer Section -->
+      <footer class="footer">
+        <div class="footer-container">
+          <!-- Brand -->
+          <div class="footer-brand">
+            <h3 data-i18n="foot.h">Webify Tech</h3>
+            <p data-i18n="foot.p">
+              We build modern websites, smart systems and scalable digital
+              solutions.
+            </p>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="footer-links">
+            <h4 data-i18n="foot.list">List of links</h4>
+            <ul>
+              <li><a href="#home" data-i18n="nav.home">Home</a></li>
+              <li><a href="#about" data-i18n="nav.about">About</a></li>
+              <li><a href="#services" data-i18n="nav.service">Services</a></li>
+              <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+            </ul>
+          </div>
+
+          <!-- Social -->
+          <div class="footer-social">
+            <h4 data-i18n="foot.follow">Follow us on</h4>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/webifytech.eg" target="_blank"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+              <a href="#"><i class="fab fa-x-twitter"></i></a>
+              <a href="https://www.instagram.com/eslam_hisham_" target="_blank"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>
+            <span class="footer-bottom-icon">©</span>
+            <span class="footer-bottom-title"
+              >Webify Tech | All Rights Reserved 2026 | @webifytech.eg</span
+            >
+          </p>
+          <p class="signature">
+            <a href="https://www.facebook.com/Eslam.Hisham15" target="_blank"
+              >Developed by Eslam el-Gendy</a
+            >
+          </p>
+        </div>
+      </footer>
+    </main>
+
+    <!-- Js & EmailJS SDK -->
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

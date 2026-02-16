@@ -1,0 +1,125 @@
+{  
+
+
+
+    "__section": "navbar",
+
+
+    "nav.brand" : "Webify",
+    "nav.tag" : "Tech",
+    "nav.home": "Home",
+    "nav.about": "About",
+    "nav.service": "Services",
+    "nav.work": "Work",
+    "nav.contact": "Contact",
+    "nav.cta": "Let’s Work Together",
+    "nav.lang": "AR",
+
+
+
+
+  "__section": "home",
+
+  "hero.title": "Websites | Systems | Solutions",
+  "hero.subtitle": "We build modern digital experiences that contribute to your business growth and progress.",
+  "hero.cta1": "Get Started",
+  "hero.cta2": "View Work",
+
+
+
+
+
+
+
+"__section":"about" ,
+
+
+  "about.title": "About Webify Tech",
+  "about.description": "We help startups and businesses launch modern web experiences that combine performance, design, and scalability.",
+  "about.stat1": "Projects",
+  "about.stat11":"+20",
+  "about.stat2": "Client Focus",
+  "about.stat22": "100%",
+  "about.stat3": "Performance",
+  "about.stat33": "Fast🚀",
+  "about.cardTitle": "Our Mission",
+  "about.cardText": "Deliver clean, scalable, and business-oriented digital solutions.",
+
+
+
+
+"__section":"services",
+
+  "services.title" : "Our Services",
+  "services.subtitle" : "We provide complete digital solutions and systems tailored for your business.",
+
+  "services.s1.title" : "Websites Development",
+  "services.s1.desc" : " Modern, fast and scalable websites and systems built with best practices.",
+
+  "services.s2.title" : "Web Systems",
+  "services.s2.desc" : " Custom web systems tailored to your business workflow.",
+
+  "services.s3.title" : "Landing Pages",
+  "services.s3.desc" : "Customizable and tailored landing pages for marketing and advertising your project.",
+
+  "services.s4.title" : "Embedded system",
+  "services.s4.desc" : "We help you with embedded systems projects and implement your ideas.",
+
+
+
+"__section":"work",
+
+"work.title" : "Our Work",
+"work.desc" : "Selected projects and featured concepts.",
+"work.view" : "View Project",
+
+"work.project1" : "Restaurant Website",
+"work.dsc.project1" : "Modern responsive website for a restaurant brand.",
+
+"work.project2" : "Company Landing Page",
+"work.dsc.project2" : "High-converting landing page for a startup.",
+
+"work.project3" : "Portfolio Concept",
+"work.dsc.project3" : "Clean portfolio template for freelancers.",
+
+"work.project4" : "Smart Home",
+"work.dsc.project4" : "smart home with modern features.",
+
+"work.project5" : "Smart Automated External defibrillator (AED)",
+"work.dsc.project5" : "Smart AED is a portable, real-time life-saving device that integrates ECG monitoring and automatic defibrillation.",
+
+"work.project6" : "Electronics Store Website",
+"work.dsc.project6" : "Modern responsive website for a Electronics brand.",
+
+"work.mini" : "Why Choose Webify Tech?",
+"work.mini1" : "24/7 technical support",
+"work.mini2" : "Business-Oriented Solutions",
+"work.mini3" : "Modern UI & UX",
+"work.mini4" : "Fast Delivery 🚀",
+
+
+"__section":"contact",
+
+"contact.h1" : "Contact",
+"contact.h2" : "Let’s Work",
+"contact.h" : "Together",
+
+"contact.dsc" : "Have a project in mind? Tell us about it and we’ll get back to you within 24 hours.",
+"contact.a1" : "Webify Tech",
+"contact.a2" : "Call Us",
+"contact.name" : "Your Name",
+"contact.email" : "Your Email",
+"contact.phone" : "Your Phone",
+"contact.message" : "Your Message",
+"contact.btn" : "Send Message",
+
+
+
+"__footer":"contact",
+
+"foot.list" : "List of links" ,
+"foot.follow" : "Follow us on",
+"foot.h" : "Webify Tech",
+"foot.p": "We build modern websites, smart systems and scalable digital solutions."
+
+}
